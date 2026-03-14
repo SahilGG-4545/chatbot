@@ -1,0 +1,53 @@
+main.py
+
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[oc]
+*.pyd
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+
+# ── Virtual environments ─────────────────────────────────
+.venv/
+venv/
+env/
+.env.bak
+
+# ── Environment / secrets ────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Package managers ─────────────────────────────────────
+uv.lock
+pip-log.txt
+
+# ── Testing & coverage ───────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Type checkers ────────────────────────────────────────
+.mypy_cache/
+.pyright/
+
+# ── Streamlit ────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Jupyter ──────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editors ──────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
